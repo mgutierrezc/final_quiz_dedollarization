@@ -46,7 +46,7 @@ class Constants(BaseConstants):
                                           ['Neutral', 'Neutral'], ['Disagree', 'Disagree'],
                                           ['Strongly Disagree', 'Strongly Disagree']],
                            )
-    spanish_answers = dict(gender=[['Hombre', 'Hombre'], ['Mujer', 'Mujer']],
+    spanish_answers = dict(gender=[['Hombre', 'Hombre'], ['Mujer', 'Mujer'], ['Otro', 'Otro']],
                            problems=[['Sí', 'Sí'],['No', 'No']],
                            satisfaction_with_strat=[['Muy de Acuerdo', 'Muy de Acuerdo'], ['De Acuerdo', 'De Acuerdo'],
                                                     ['Neutral', 'Neutral'], ['En Desacuerdo', 'En Desacuerdo'],
