@@ -14,6 +14,7 @@ class Survey(Page):
 
     def before_next_page(self): 
         self.group.set_payoffs()
+        self.player.survey_timeout = int(self.participant.vars["player_left"])
 
     def is_displayed(self):
         # if self.participant.vars['MobilePhones'] is False and self.participant.vars['timed_out'] is False:
